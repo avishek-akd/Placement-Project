@@ -1,0 +1,24 @@
+create table Admin
+(
+	EMAIL varchar2(30),
+	USERID varchar2(30),
+	PASSWORD varchar2(30)
+);
+
+create table Placement
+(
+	REGD_NO number(20,0),
+	NAME varchar2(30),
+	GENDER varchar2(30),
+	BATCH number(10,0),
+	BRANCH varchar2(10),
+	DOB DATE,
+	TEN number(5,2),
+	TWELVE number(5,2),
+	CGPA number(4,2),
+	BACK number(3,0),
+	EMAIL varchar2(40),
+	MOB number(20,0)
+);
+
+Insert into admin values ('admin@gmail.com','admin','admin');
